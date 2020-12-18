@@ -22,8 +22,8 @@ for (let index = 0; index < animalList.length; index++) {
 }
 
 let numberOfHalalLeg = numberOfCow * COW_LEG + numberOfShepp * SHEEP_LEG + numberOfChicken * CHICKEN_LEG;
-let TotalLeg = numberOfChicken * CHICKEN_LEG + numberOfCow * COW_LEG + numberOfPig * PIG_LEG + numberOfShepp * SHEEP_LEG;
-let KellePacaLeg = numberOfShepp * SHEEP_LEG + numberOfCow * COW_LEG;
+let totalLeg = numberOfChicken * CHICKEN_LEG + numberOfCow * COW_LEG + numberOfPig * PIG_LEG + numberOfShepp * SHEEP_LEG;
+let kellePacaLeg = numberOfShepp * SHEEP_LEG + numberOfCow * COW_LEG;
 console.log(`Number of Halal Legs: ${numberOfHalalLeg}`);
-console.log(`Number of Total Legs: ${TotalLeg}`);
-console.log(`Number of Kelle Paca Legs: ${KellePacaLeg}`);
+console.log(`Number of Total Legs: ${totalLeg}`);
+console.log(`Number of Kelle Paca Legs: ${kellePacaLeg}`);
